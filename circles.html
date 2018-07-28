@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<style media="screen">
+
+#circle-wrapper{
+position:relative;
+top:0;
+left:0;
+}
+
+.circle1, .circle2, .circle3, .circle4 {
+  position:absolute;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 32%;
+  height: 32%;
+  padding-bottom: 32%;
+  color: #fff;
+
+
+}
+.wrapper{
+margin-top:40%;
+//margin-left:32%;
+height:100%;
+width:100%;
+display: table;
+}
+
+.circleH1 {
+  display:inline-block;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+//background:red;
+}
+
+/* .circle1 {
+  background-color:#889fbe;
+  color:000;
+  margin-top:-8%;
+  left:10%;
+} */
+
+.circle2 {
+  margin-top:10%;
+  color:000;
+  left:24%;
+  background-color:#56a0d3;
+}
+.circle3 {
+margin-top:24%;
+left:10%;
+background-color:#56a0d3;
+}
+
+.circle4 {
+margin-top:10%;
+left:-8%;
+background-color:#56a0d3;
+}
+
+.transparent_class {
+/* IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+
+/* IE 5-7 */
+filter: alpha(opacity=90);
+
+/* Netscape */
+-moz-opacity: 0.9;
+
+/* Safari 1.x */
+-khtml-opacity: 0.9;
+
+/* Good browsers */
+opacity: 0.9;
+}
+</style>
+<body>
+  <div id="circle-wrapper">
+<!-- <div class="circle1 transparent_class"><div class="wrapper"><h1>Two lines <br />&amp;Two lines</h1></div></div> -->
+
+<div class="circle2 transparent_class"><div class="wrapper"><h1 class="circleH1">Productivity </h1></div></div>
+
+<div class="circle3 transparent_class"><div class="wrapper"><h1 class="circleH1">Transformation</h1></div></div>
+
+<div class="circle4 transparent_class "><div class="wrapper"><h1 class="circleH1">Efficiency</h1></div></div>
+
+</div><!--close of circle-wrapper-->
+
+</body>
+</html>

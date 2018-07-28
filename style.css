@@ -1,0 +1,1406 @@
+/* -----------------------------------------------------------
+------------------ GLOBAL STYLE ------------------------------
+-------------------------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+    font-family: 'Alegreya Sans', sans-serif;
+body {
+  background: whitesmoke;
+  /* font-family: 'Alegreya Sans', sans-serif; */
+  font-family: Helvetica ;
+  width: 100%;
+}
+a , a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.grayBackground {
+  background-color: #e6e6e6;
+}
+
+.blackBackground {
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.btn-dark {
+  background: black;
+  color: #fff !important;
+}
+.btn-dark:hover {
+  color: black !important;
+  border: 2px solid black;
+  background: silver;
+}
+
+
+/*  ------------------------------------------------------
+----------------------Navigation--------------------------
+-------------------------------------------------------- */
+nav {
+  text-align: center;
+  background-color: #000;
+  height: 100px;
+
+  }
+/* #LOGO {
+  width: 120px;
+  height: 100px;
+} */
+#navbarNav {
+
+}
+#navbarNav div {
+  height: 50px;
+}
+
+.navbar-brand img {
+  width: 70px;
+  height: 50px;
+  margin-left: 30px;
+
+}
+.nav ul {
+  height: 100px;
+}
+
+.nav-link {
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid black;
+  margin-top: 0 !important;
+  background-color: black !important;
+
+
+}
+.nav-link:hover {
+  background-color: #fff !important;
+  color: black !important;
+  font-weight: 420;
+
+
+}
+nav .dropdown-menu {
+  background: black;
+  width: 80px;
+  text-align: left;
+  height: 80px !important;
+  }
+nav .dropdown-menu a {
+    color: #fff;
+    font-size: 14px;
+  }
+#serviceShowList {
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+}
+#servicesDropdown {
+      display: none;
+}
+#servicesDropdown a {
+  font-size: 13px;
+  margin: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+#servicesDropdown a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+
+/* ----------------------------------------------------
+-----------------------LANDING CSS --------------------
+------------------------------------------------------*/
+#landing {
+
+  display: grid;
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+}
+#landing .row {
+  margin-right: 0px !important;
+}
+
+#landing #logoImg img {
+  height: 100vh;
+  width: 100%;
+}
+
+#landing div {
+padding-right: 0;
+}
+#landing_wallpaper {
+  background: url('img/landing_wallpaper.jpeg') ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100% !important;
+}
+
+#landing h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: black;
+  text-shadow: 2px 2px white,
+               -1px -1px white ;
+               font-weight: bold;
+}
+#landing h3 {
+  color: black;
+  letter-spacing: 1px;
+  margin-bottom: 60px;
+  text-shadow: 1px 1px white,
+               -1px -1px white ;
+               font-weight: bold;
+
+}
+#landing button {
+  color: #000;
+  font-weight: bold;
+  margin: 50px;
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 16px;
+  background: rgba(255,255,255,0.5);
+  margin-top: 40vh;
+
+}
+#landing button:last-child {
+  max-width: 300px;
+}
+#landing button:hover {
+  color: #fff;
+  background: #000;
+  border: 1px solid #fff;
+}
+#landing img {
+  width: 100%;
+}
+/* ----------------------------------------------------
+-----------------------CONTENT --------------------
+------------------------------------------------------*/
+#content {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background: #fff;
+  color: black;
+}
+#contentImg1 {
+  background: url('img/img1.jpeg')no-repeat top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+#content .container {
+  background: #fff;
+/*  border-bottom: 3px solid lightgray; */
+
+}
+/* ----------------------------------------------------
+-----------------------preventionServices DIV --------------------
+------------------------------------------------------*/
+#preventionServices {
+  margin-bottom: 100px;
+}
+
+#preventionServices h2 {
+  padding-top: 50px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  color: #d61f3b;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+#preventionServices img {
+  max-width: 400px;
+  height: 300px;
+}
+ #preventionServices h5 {
+   margin-top: 40px;
+ }
+
+#preventionServices button {
+  margin-top: 50px;
+   padding: 20px;
+   font-size: 15px;
+   border-radius: 10px;
+   font-weight: bold;
+}
+#preventionServices button:hover {
+   color: black;
+   background: #fff;
+}
+#preventionServices .row {
+  background: #fff;
+  padding-top: 30px;
+}
+
+#content h3 {
+  font-size: 24px;
+  margin-bottom: 50px;
+  color: #1a1a1a;
+  font-weight: bold;
+}
+#content h3:last-child {
+  padding-bottom: 50px;
+}
+/* #content button {
+  /* margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fff;
+  background: black;
+  border: 1px solid black;
+}
+#content button:hover {
+  color: black;
+  background: white;
+  border: 1px solid black;
+} */
+#content .container-fluid {
+  background: #fff;
+
+}
+/* ---------------------------------------------------------
+------------------------ PERFORMANCE DIV ------------------------
+---------------------------------------------------------- */
+#humanPerformanceDiv {
+  padding-top: 100px;
+  /* background: #bdc3c7;  /* fallback for old browsers */ */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7) !important;  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7) !important;; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-bottom: 100px;
+  padding-bottom: 100px;
+}
+#humanPerformanceDiv .col-lg-6 {
+
+}
+
+#img1 {
+  width: 600px;
+  height: 400px;
+  margin-bottom: 50px;
+}
+#img2 {
+  width: 70%;;
+  height: 600px;
+  border-radius: 10px;
+}
+#img3 {
+  width: 70%;
+  height: 600px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+#performanceButton {
+  margin: auto;
+  margin-top: 50px !important;
+  border-radius: 20px !important;
+  padding: 20px !important;
+  cursor: pointer;
+  font-size: 15px !important;
+  font-weight: bold;
+}
+#performanceButton:hover {
+  background: #fff;
+  color: #000;
+
+}
+/* ---------------------------------------------------------
+------------------------CLIENTS DIV  ------------------------
+---------------------------------------------------------- */
+#clients {
+  margin-top: 50px;
+}
+
+#clients div img {
+  width: 300px;
+  height: 300px;
+  margin-top: 80px;
+}
+/* ---------------------------------------------------------
+------------------------SOCIAL MEDIA ICON DIV  ------------------------
+---------------------------------------------------------- */
+#socialMediaIconsHolder {
+  margin-top: 100px;
+  background: lightgray !important;
+  height: 200px;
+  padding-top: 0px !important;
+  padding-bottom: 20px;
+  max-width: 100% !important;
+
+}
+#socialMediaIconsHolder h2 {
+  padding-top: 20px;
+}
+.fa-facebook-square {
+  color: #3B5998;
+}
+.fa-twitter-square {
+  color: #1DA1F2;
+}
+.fa-instagram {
+  color: #e4405f;
+  }
+  /* ---------------------------------------------------------
+  ------------------------ TRAINING DIV ------------------------
+  ---------------------------------------------------------- */
+#trainingDiv {
+  margin-top: 50px;
+  }
+iframe {
+  box-shadow: 5px 5px lightgray,
+              -5px -5px lightgray;
+  width: 80%;
+  height: 400px;
+}
+#quote {
+  background: black;
+  color: #fff;
+  padding-top: 70px;
+  text-align: center;
+  height: 400px;
+  box-shadow: 5px 5px lightgray,
+              -5px -5px lightgray;
+
+
+}
+#workplaceImgHolder img {
+  width: 80%;
+  box-shadow: 5px 5px lightgray,
+              -5px -5px lightgray;
+  height: 400px;
+}
+
+/* ---------------------------------------------------------
+------------------------ SUBSCRIBE DIV ------------------------
+---------------------------------------------------------- */
+#subscribeDiv {
+  background: lightgray !important;
+  margin-top: 100px;
+  padding: 50px 50px !important;
+  text-align: center;
+}
+#subscribeDiv h4 {
+  max-width: 600px;
+  text-align: center;
+  margin: auto;
+  font-size: 30px;
+  font-family: sans-serif;
+  }
+#subscribeDiv form {
+  margin-top: 50px;
+}
+#subscribeDiv form label {
+  font-weight: bold;
+  font-size: 12px;
+  color: black;
+  }
+#subscribeDiv form input#email {
+  margin-top: 5px;
+  margin-bottom: 50px;
+  max-width: 600px;
+  height: 38px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+input[type=submit] {
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+/* ---------------------------------------------------------
+------------------------ FOOTER ------------------------
+---------------------------------------------------------- */
+footer {
+  width: 100%;
+  padding-top: 30px;
+  background-color: #292c2f;
+  color: #bbb;
+
+}
+
+footer a {
+  color: #999;
+  text-decoration:none;
+}
+
+footer a:hover, footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
+}
+
+footer .form-control {
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
+              /* ---------------------------------------------------------
+------------------------ ABOUT PAGE CSS ABOUT PAGE CSS ABOUT PAGE CSS ABOUT
+ABOUT PAGE CSS ABOUT PAGE CSS ABOUT PAGE CSS ABOUT PAGE CSS ABOUT PAGE CSS
+ABOUT PAGE CSS ABOUT PAGE CSS ABOUT PAGE CSS ABOUT PAGE CSS ABOUT PAGE CSS
+                --------------------------------------------------------- */
+
+#aboutPageLanding {
+  text-align: center;
+  padding-top: 40vh;
+  background: url('img/workers.jpg') no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 90vh;
+
+}
+#aboutPageLanding h1 {
+  color: red;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-shadow: 1px 1px #000,
+                -1px -1px red ;
+}
+
+
+#aboutMain {
+  min-height: 50vh;
+  display: grid;
+  text-align: center;
+}
+#aboutMain .container {
+  margin: auto;
+}
+#aboutMain h1 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: red;
+}
+
+/* ---------------------------------------------------------
+------------------------ ABOUT MAIN DIAGRAM-------------------
+----------------------------------------------------------- */
+#circlesHolder {
+  margin: auto;
+  text-align: center;
+  background: gray;
+
+
+}
+
+#aboutMainDiagram {
+  margin-top: 50px !important;
+  margin-bottom: 0px !important;
+  background: black;
+  padding: 50px;
+}
+#aboutMainDiagram img {
+  margin-bottom: 0;
+  width: 100%;
+}
+#aboutMainDiagram h3 {
+
+  padding: 10px;
+  font-size: 24px;
+  color: #fff;
+
+  }
+#aboutMainDiagram .h3s {
+  /* border: 1px solid black;
+  /* padding: 100px; */
+  /* border-radius: 50%; */
+  /* background: #fff; */ */
+}
+
+.fa-arrow-down {
+  color: #fff;
+  margin-top: -40px !important;
+}
+#movement {
+  margin-top: 20px;
+  border: 1px solid #fff;
+  background: black;
+  /* width: 300px !important; */
+  color: #fff;
+  padding: 20px;
+}
+.bordered {
+  border: 2px solid lightblue;
+  padding: 50px;
+  display: grid;
+  text-align: center;
+}
+#italicWhite {
+  font-style: italic;
+  color: #fff !important;
+}
+
+                 /* TRAINING TEAM DIV */
+#trainingTeamDiv {
+  text-align: center;
+  margin-top: 50px;
+  background: #fff; /*#f3f3f3; */
+}
+#trainingTeamDiv .row {
+  text-align: center;
+}
+#trainingTeamDiv h1 {
+  padding: 50px;
+  margin-bottom: 50px;
+  color: red;
+  background: #e6e6e6;
+
+}
+#trainingTeamDiv h2, #trainingTeamDiv h3, #trainingTeamDiv h4 {
+  padding: 30px;
+  width: 300px !important;
+}
+
+                  /* TABLE DIV */
+#tableDiv {
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin-bottom: 0px;
+}
+#tableDiv table {
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px black;
+  font-weight: bold;
+}
+
+              /* quotationAboutDiv */
+#quotationAboutDiv {
+  background: black;
+  text-align: center;
+  min-height: 40vh;
+  margin-top: 0px;
+}
+#quotationAboutDiv h1 {
+  color: #fff;
+  margin-top: 50px;
+  padding-top: 70px;
+}
+    /* video about div */
+#videoAboutDiv {
+  padding-top: 50px;
+  text-align: center;
+}
+#videoAboutDiv img {
+  width: 100%;
+}
+#videoAboutDiv video {
+  width: 90%;
+  margin-top: 100px;
+  margin: auto;
+}
+
+        /* testimonialAboutDiv */
+#testimonialAboutDiv {
+  background: gray;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: grid;
+  text-align: center;
+}
+#testimonialAboutDiv h2 {
+  margin: auto;
+  padding: 100px 50px;
+  color: #fff;
+}
+span.text-muted {
+  color: whitesmoke !important;
+  font-size: 25px;
+}
+
+          /* exampleVideoDiv */
+#exampleVideoDiv img {
+  width: 100%;
+}
+#exampleVideoDiv .row .col-lg-3 {
+  text-align: center;
+
+}
+#exampleVideoDiv button {
+  padding: 50px;
+  border-radius: 40px;
+  margin-top: 150px;
+  margin-left: 50px;
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+
+/* //////////////////////////////////////
+//////////////SERVICES PAGE STYLE ///////
+///////////////////////////////////////// */
+#servicesPageLanding {
+  text-align: center;
+  padding-top: 40vh;
+  background: url('img/servicesLanding.jpg') no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 90vh;
+
+}
+#servicesPageLanding h1 {
+  color: red;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-shadow: 1px 1px #000,
+                -1px -1px red ;
+}
+
+/* BLOCK CONTENT */
+#blockContent {
+display: grid;
+text-align: center;
+margin-top: -8px;
+background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#blockContent h3{
+color: #fff;
+margin-bottom: 20px;
+margin-top: 20px;
+text-align: center;
+}
+#blockContent h4 {
+color: #fff;
+margin-bottom: 20px;
+margin-top: 40px;
+text-align: center;
+}
+#blockContent .row {
+margin: auto;
+}
+#blockContent img {
+  width: 100%;
+}
+
+#blockContent .row div {
+border: 1px solid black;
+border-top: none;
+/* border-right: 2px solid black; */
+padding: 20px 100px;
+margin-top: 0;
+}
+#servicesPreventiveTraining {
+  padding: 50px 100px;
+}
+#servicesPreventiveTraining h3 {
+  text-align: center;
+}
+#servicesPreventiveTraining .row h5 i {
+  font-weight: 400;
+}
+#servicesPreventiveTraining .row .row {
+  padding: 20px 200px;
+}
+#servicesPreventiveTraining ul li {
+  color: black;
+ }
+#lifestyleAssessment {
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+#lifestyleAssessment button {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}
+
+
+#servicesMainContent {
+  padding: 50px;
+  margin: auto;
+}
+#servicesMainContent h3 {
+  line-height: 40px;
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 640;
+  color: black;
+}
+#servicesMainContent ul li {
+  font-size: 20px;
+  font-weight: 540 !important;
+  letter-spacing: 2px;
+  padding: 7px;
+  list-style-type: circle bold;
+  font-family: sans-serif;
+  font-style: italic;
+  color: black;
+}
+#servicesMainContent button {
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+#servicesMainContent button:hover {
+  color: black;
+}
+
+#videoServicesDiv {
+  background: lightgray;  /* fallback for old browsers */
+  padding: 50px;
+  text-align: center;
+}
+#videoServicesDiv img {
+  width: 100%;
+  height: 400px;
+}
+#videoServicesDivTxt {
+  text-align: center;
+  background: black;
+}
+#videoServicesDivTxt h2 {
+  padding-top: 100px;
+  color: #fff;
+}
+#videoServicesDiv iframe {
+  width: 100%;
+  height: 400px;
+}
+
+#servicesMainContent2 {
+  background: #000;
+  padding: 50px;
+  margin: auto;
+}
+#servicesMainContent2 h3 {
+  line-height: 40px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  color: #fff;
+}
+#servicesMainContent2 ul {
+  background: #000;
+}
+#servicesMainContent2 ul li {
+  background: black;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500 !important;
+  letter-spacing: 2px;
+  padding: 4px;
+  list-style-type: circle bold;
+  font-family: sans-serif;
+  font-style: italic;
+}
+#servicesMainContent2 button {
+  margin-top: 20px;
+  padding: 15px;
+  margin-right: 50px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+#servicesMainContent2 button:hover {
+  color: black;
+}
+
+#h1Imgholder {
+  padding: 50px;
+  text-align: center;
+  }
+#h1Imgholder img {
+   width: 100%;
+   height: 200px;
+}
+#h1Imgholder h1 {
+  font-weight: 400;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-size: 35px;
+  background: #fff;
+  color: black;
+}
+/*////////////////////////////////////////////
+//////////// GOVERNMENT STYLE ///////////////
+///////////////////////////////////////////*/
+#headingGovernment {
+  text-align: center;
+  padding-top: 40vh;
+  color: red;
+  background: url('img/government.jpg') fixed center no-repeat;
+  background-size: cover;
+  margin-bottom: 0 !important;
+  height: 100vh;
+}
+
+
+#governmentLanding {
+  text-align: center;
+  padding: 100px;
+  color: #fff;
+  background-color: #000;
+  min-height: 50vh;
+  }
+#governmentLanding h1 {
+  line-height: 150%;
+}
+#governmentContent {
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  padding: 50px 200px;
+}
+#governmentContent h2 {
+  line-height: 150%;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+#governmentContent ul li {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+#irregularBorder {
+  background: #000;
+  padding: 50px;
+  text-align: center;
+    }
+#irregularBorder .container .row div.col-lg-6 {
+  background: #fff;
+  padding: 20px;
+  -webkit-clip-path: polygon(48% 6%, 100% 5%, 81% 93%, 43% 81%, 0 86%, 0 0);
+  clip-path: polygon(48% 6%, 100% 5%, 81% 93%, 43% 81%, 0 86%, 0 0);
+}
+#irregularBorder .container .row div.col-lg-6 h4 {
+padding: 5px;
+margin-bottom: 30px;
+padding-right: 30px;
+}
+#irregularBorder .container .row div.col-lg-6 h4 span {
+  font-size: 16px;
+  font-style: italic;
+
+}
+
+#irregularBorder .container .row div.col-lg-4 {
+  background: #fff;
+  padding: 20px;
+  -webkit-clip-path: polygon(95% 6%, 100% 83%, 86% 81%, 65% 73%, 53% 85%, 22% 91%, 13% 84%, 0% 70%, 0% 35%, 29% 0);
+  clip-path: polygon(95% 6%, 100% 83%, 86% 81%, 65% 73%, 53% 85%, 22% 91%, 13% 84%, 0% 70%, 0% 35%, 29% 0);
+}
+#irregularBorder .container .row div.col-lg-4 h4 {
+padding-top: 20px;
+font-size: 18px;
+text-indent: 20px;
+padding-left: 20px;
+}
+#irregularBorder .container .row div.col-lg-4 h4 span {
+  font-size: 15px;
+  font-style: italic;
+}
+#governmentImages {
+  padding: 50px 100px;
+  display: grid;
+  text-align: center;
+}
+#governmentImages img {
+  width: 90%;
+  height: 300px;
+}
+#governmentImages h4 {
+  margin: auto;
+  margin-top: 20px;
+}
+#governmentImages .col-lg-12 h4 {
+  font-size: 20px;
+  font-style: italic;
+  margin: auto;
+  margin-top: 20px;
+}
+#governmentImages .col-lg-6 h4 {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+/*//////////////////////////////////////////////////
+///////////////// CORPORATE STYLE /////////////////
+////////////////////////////////////////////////////*/
+#headingCorporate {
+  text-align: center;
+  padding-top: 40vh;
+  color: red;
+  background: url('img/corporate.jpg') fixed center no-repeat;
+  background-size: cover;
+  margin-bottom: 0 !important;
+  height: 100vh;
+}
+#corporateDiagrams {
+
+}
+#corporateDiagrams .row div {
+  width: 100%;
+}
+#corporateDiagrams img {
+    width: 100%;
+    margin-top: 30px;
+    }
+#medicalDiagram {
+  margin-top: 15px;
+}
+
+#corporateDiagrams div.col-lg-4 h3 {
+  padding: 100px 100px;
+  text-align: center;
+  background: #fff;
+  color: #000;
+  width: 100%;
+}
+#employee_engagement {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0 !important;
+  padding: 50px;
+  background: #bdc3c7;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #404040, #737373, #999999, #bfbfbf);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #404040, #737373, #999999, #bfbfbf); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-bottom: 1px solid black;
+}
+#employee_engagement h1 {
+  margin-bottom: 30px !important;
+}
+#employee_engagement h3 {
+  text-align: justify;
+  }
+#employee_engagement h6 {
+  text-align: left;
+  padding-top: 10px;
+}
+#employee_engagement img {
+  width: 100%;
+}
+#employee_engagement span img {
+  width: 50px;
+  height: 50px;
+  margin-top: 0 !important;
+}
+
+
+#performance_prevention {
+  background: #000;
+  color: #fff;
+  padding: 50px;
+}
+#performance_prevention h1 {
+  text-align: center;
+}
+#performance_prevention h4 {
+  margin-bottom: 50px;
+  text-align: left;
+  padding: 20px 50px;
+}
+#performance_prevention .row {
+  padding-left: 50px;
+}
+
+/*/////////////////////////////////////////
+/////////////RESOURCES STYLE /////////////
+///////////////////////////////////////*/
+#rescourcesMain {
+  padding: 100px 150px;
+}
+#resourcesSearchInput input {
+  padding-left: 10px;
+}
+#resourcesSearchInput button {
+  margin-bottom: 7px;
+}
+#resourcesImg {
+  width: 100%;
+}
+#dropdownCategories {
+  margin-top: 20px;
+  }
+#dropdownCategories .dropdown a:hover {
+  background: black;
+  color: #fff;
+}
+
+#live_tweets {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+#resourcesWorkforceText {
+  border: 1px solid black;
+  padding: 20px;
+  }
+#resourcesWorkforceText h4 {
+  text-align: center;
+  margin-bottom: 10px;
+  }
+#resourcesWorkforceText h6 {
+  text-align: justify;
+}
+
+/* //////////////////////////////////////////
+/////////////////////////////////////////////
+///////// MEDIA QUERIES ///////////////////
+///////////////////////////////////////////// */
+@media (max-width: 1591px) {
+
+}
+
+@media (max-width: 1350px) {
+
+  }
+  #exampleVideoDiv button {
+    padding: 30px;
+    border-radius: 40px;
+    margin-top: 150px;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+  }
+  #loadmore {
+    margin-bottom: 30px;
+  }
+  #rescourcesMain small em {
+    font-size: 15px;
+    }
+  #resourcesSearchInput input {
+    margin-bottom: 5px;
+  }
+  #resourcesWorkforceText {
+    padding: 5px !important;
+  }
+  #resourcesWorkforceText h4 {
+    font-size: 20px;
+  }
+
+  #quote h4 {
+    font-size: 18px;
+  }
+
+  #servicesDropdown {
+
+  }
+  #mapContact {
+    width: 100%;
+  }
+  #irregularBorder .container .row div.col-lg-6 h4 {
+    font-size: 18px;
+  }
+  #irregularBorder .container .row div.col-lg-6 h4 span {
+    font-size: 15px;
+  }
+  #corporateDiagrams div.col-lg-4 h3 {
+    padding: 40px 100px;
+
+  }
+
+}
+
+
+@media (max-width: 1157px) {
+  #servicesPreventiveTraining {
+    padding: 10px 10px;
+    }
+  #servicesPreventiveTraining .row .row {
+    padding: 10px 5px;
+  }
+
+
+ }
+ @media (max-width: 991px) {
+   #servicesDropdown {
+     height: 50px !important;
+
+   }
+   #servicesDropdown a {
+
+       }
+   #exampleVideoDiv button {
+     padding: 20px;
+     font-size: 16px;
+     margin-top: 0;
+     margin-left: 0;
+     margin-bottom: 40px;
+     font-size: 18px;
+     color: #000;
+     font-weight: bold;
+   }
+
+  }
+
+@media (max-width: 768px) {
+  #preventionServices img {
+    max-width: 350px;
+    height: 300px;
+  }
+
+  #landing_wallpaper {
+    height: 50vh;
+    width: 100%;
+  }
+#landing #logoImg img {
+  height: 50vh;
+  width: 100%;
+}
+
+  #humanPerformanceDiv {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+  #humanPerformanceDiv img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 0;
+    height: 300px;
+  }
+  #clients img {
+    width: 100%;
+  }
+#quote {
+  width: 100% !important;
+  text-align: center;
+  padding: 100px 50px;
+  margin: auto;
+  }
+  #quote h4 {
+    font-size: 14px;
+  }
+  #servicesDropdown {
+
+  }
+
+  #mapContact {
+    width: 100%;
+  }
+  #imgWristSprainHolder {
+    text-align: center;
+    margin-top: 20px;
+  }
+  #servicesPreventiveTraining {
+    padding: 10px 10px;
+    }
+  #servicesPreventiveTraining .row .row {
+    padding: 10px 5px;
+  }
+  #servicesMainContent {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+  }
+  #servicesMainContent ul {
+    margin-top: 20px;
+  }
+  #videoServicesDivTxt {
+    width: 100% !important;
+    margin: auto;
+    height: 300px;
+
+  }
+  #videoServicesDivTxt h2 {
+    padding: 50px 20px;
+    font-size: 20px;
+  }
+  #videoServicesDiv img {
+    height: 300px;
+    width: 100%;
+  }
+  #servicesMainContent2 ul {
+    margin-top: 20px;
+  }
+
+  #governmentLanding h1 {
+    font-size: 24px;
+  }
+  #governmentContent {
+    padding: 10px 0;
+  }
+  #governmentContent h2 {
+    font-size: 24px;
+  }
+  #irregularBorder {
+    padding: 0;
+
+  }
+  #irregularBorder .container .row div.col-lg-6 h4 {
+    padding: 10px 10px;
+  }
+  #irregularBorder .container .row div.col-lg-6 h4 span {
+    font-size: 15px;
+  }
+  #irregularBorder .container .row div.col-lg-4 h4 {
+    padding: 5px 5px;
+  }
+  #irregularBorder .container .row div.col-lg-4 h4 span {
+    font-size: 13px;
+  }
+  #governmentImages img {
+    width: 100%;
+    height: 200px;
+  }
+  #governmentImages h4 {
+    /* font-size: 12px !important;
+    line-height: 400% !important; */
+  }
+  #corporateDiagrams div.col-lg-4 h3 {
+    padding: 10px 100px;
+  }
+  #trainingTeamDiv {
+    display: grid;
+  }
+  #trainingTeamDiv .row {
+    margin: auto;
+    text-align: center;
+    display: grid;
+  }
+  #loadmore {
+    margin-bottom: 50px;
+  }
+  #resourcesSearchInput input {
+    margin-bottom: 5px;
+      }
+  #live_tweets {
+    width: 100%;
+  }
+  #panel-body {
+    width: 600px;
+  }
+  #rescourcesMain {
+    padding: 30px 20px;
+  }
+  #resourcesWorkforceText {
+    padding: 5px !important;
+  }
+ #aboutPageLanding {
+
+    background: url('img/workers.jpg') no-repeat center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    min-height: 30vh;
+    padding-top: 10vh;
+    border-bottom: 2px solid gray;
+  }
+  #aboutPageLanding h1 {
+    font-size: 28px;
+  }
+  #aboutMain h1 {
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+  #movement {
+    margin-top: 20px;
+    border: 1px solid #fff;
+    background: black;
+    /* width: 300px !important; */
+    color: #fff;
+    padding: 5px -10px !important;
+      }
+   #movement h2 {
+     font-size: 20px;
+   }
+   #trainingTeamDiv h1 {
+     font-size: 28px;
+   }
+   #tableDiv {
+     padding: 0;
+   }
+   #tableDiv h3 , #tableDiv th , #tableDiv td {
+     font-size: 12px;
+     padding: 0;
+   }
+   #quotationAboutDiv h1 {
+     font-size: 20px;
+     padding: 5px 25px;
+   }
+   #videoAboutDiv {
+     padding-top: 10px;
+   }
+   #videoAboutDiv img {
+     width: 100%;
+        }
+   #videoAboutDiv video {
+
+     margin-top: 0;
+     margin-left: 0;
+     }
+   #testimonialAboutDiv {
+     background: gray;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     display: grid;
+     text-align: center;
+   }
+   #testimonialAboutDiv h2 {
+     margin: auto;
+     padding: 20px 10px;
+     color: #fff;
+     font-size: 25px;
+   }
+   #exampleVideoDiv button {
+     padding: 20px;
+     font-size: 16px;
+     margin-top: 0;
+     margin-left: 0;
+     margin-bottom: 20px;
+     font-size: 18px;
+     color: #000;
+     font-weight: bold;
+   }
+  footer .fa-facebook-square , footer .fa-twitter-square , footer .fa-instagram {
+    margin: auto;
+   }
+
+
+}

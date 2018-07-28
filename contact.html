@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>WORKFORCE STRONG</title>
+    <style media="screen">
+    /*Font-awesome integration*/
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+/*Google font integration*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  background: url('img/invest_health.jpg') no-repeat;
+  background-size: cover;
+}
+h3, h4 {
+  color: #fff;
+  margin-top: 50px;
+  text-shadow: 1px 1px black;
+}
+h5 {
+  color: #fff;
+  text-shadow: 1px 1px black;
+  margin: 2px;
+  }
+a h6 {
+  color: blue;
+  font-weight: bold;
+  text-shadow: 1px 1px white;
+}
+
+#contact{
+  background-color: rgba(0,0,0,0.1);
+  font-family: 'Roboto', sans-serif;
+}
+
+#contact .well{
+  margin-top:30px;
+  border-radius:0;
+}
+
+#contact .form-control{
+  border-radius: 0;
+  border:2px solid #1e1e1e;
+}
+
+#contact button{
+  border-radius:0;
+  border:2px solid #1e1e1e;
+}
+
+#contact .row{
+  margin-bottom:30px;
+}
+footer {
+  margin-bottom: 0 !important;
+  background-color: rgba(0,0,0,0.5) !important;
+  padding-bottom: 1px !important;
+  color: #fff !important;
+}
+footer a {
+  color: #fff !important;
+}
+
+@media (max-width: 768px) {
+  #contact iframe {
+      margin-bottom: 15px;
+  }
+
+}
+    </style>
+  </head>
+
+  <body>
+    <!-- //////////////////////////////////////////
+    //////////////////  NAVBAR ///////////////
+   ///////////////////////////////////////// --->
+   <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+
+<a class="navbar-brand" href="index.html">
+ <img src="logo.png" alt="">
+ </a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+ <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarNav">
+ <div class="container">
+ <ul class="navbar-nav justify-content-end">
+
+ <li class="nav-item">
+   <a class="nav-link" href="index.html">Home</a>
+ </li>
+ <li class="nav-item">
+   <a id="serviceShowList" class="nav-link" href="services.html">Services</a>
+   <div id="servicesDropdown">
+     <div class="row">
+       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <a class="nav-link" href="government.html">Government</a>
+       </div><br>
+       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <a class="nav-link" href="corporate.html">Corporate</a>
+          </div>
+  </div>
+  </div>
+ </li>
+   <li class="nav-item">
+     <a class="nav-link" href="about.html">About</a>
+   </li>
+   <li class="nav-item">
+     <a class="nav-link" href="resources.html">Resources</a>
+   </li>
+
+
+   <!-- <div class="nav-item dropdown show">
+     <a class="nav-link dropdown-toggle" href="services.html" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services <!- - <span class="sr-only">(current)</span> --></a>
+     <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+     <a class="dropdown-item" href="government.html">GOVERNMENT</a>
+     <a class="dropdown-item" href="corporate.html">CORPORATE</a> -->
+
+   <!-- </div>
+ </div> -->
+   <li class="nav-item">
+     <a class="nav-link" href="contact.html">Contact</a>
+   </li>
+   <li class="nav-item">
+     <a class="nav-link disabled" href="">Login</a>
+   </li>
+ </ul>
+
+</div>
+</nav>
+<!-- //////////////////////////////////////////
+//////////////////  NAVBAR END ///////////////
+ ///////////////////////////////////////// --->
+ <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+<!-- Include the above in your HEAD tag ---------->
+
+<section id="contact">
+  <div class="container">
+    <div class="well well-sm">
+      <h3><strong>Contact Us</strong></h3>
+    </div>
+
+	<div class="row">
+	  <div class="col-xs-12 col-sm-12 col-md-7">
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3736489.7218514383!2d90.21589792292741!3d23.857125486636733!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1506502314230" width="100%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+        <iframe id="mapContact" src="https://www.google.com/maps?q=new%20haven&output=embed"></iframe>
+        <!-- <iframe width="600" height="450" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=new%20haven&key=AIzaSyD-rUffOUocRT2DcdHhPtR7QaYUws0VHZE" allowfullscreen></iframe> -->
+      <div>
+        <h5> Workforce Strong</h5>
+        <h5>New Haven, CT </h5>
+        <a href="tel:1-518-497-5440"><h6>(518) 497-5440</h6></a>
+
+      </div>
+      </div>
+
+      <div class="col-md-5">
+          <h4><strong>Get in Touch</strong></h4>
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" name="name" value="" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="company" value="" placeholder="Company/Government Agency">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" name="email" value="" placeholder="E-mail">
+          </div>
+          <div class="form-group">
+            <input type="tel" class="form-control" name="phone" value="" placeholder="Phone">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="3" placeholder="Message"></textarea>
+          </div>
+          <button class="btn btn-dark" type="submit" name="button">
+              <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="contact" class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <h5><i class="fa fa-road"></i> WORKFORCE INC.</h5>
+                <div class="row">
+                    <div class="col-6">
+                        <ul class="list-unstyled">
+                            <li>SERVICES:</li>
+                            <li><a href="">Government</a></li>
+                            <li><a href="">Corporate</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul class="list-unstyled">
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="resources.html">Resources</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <br>
+            </div>
+             <div class="col-md-5">
+               <br>
+                 <a href="mailto:'contact@workforcestrong.com'"><h6 style="color:white; text-shadow:1px 1px red">contact@workforcestrong.com</h6></a>
+                <h6>New Haven, CT</h6>
+                <a  href="tel:1-518-497-5440"><h6 style="color:white; text-shadow:1px 1px red">(518) 497-5440</h6></a>
+            </div>
+             <div class="col-sm-12 col-md-5">
+               <ul class="list-inline">
+                 <span  class='col-xs-2 col-sm-2 col-md-4 col-lg-2'> <a href=""><i class="fab fa-facebook-square fa-2x"></i></a> </span>
+                 <span  class='col-xs-2 col-sm-2 col-md-2 col-lg-2'><a href=""><i class="fab fa-twitter-square fa-2x"></a></i> </span>
+                 <span  class='col-xs-2 col-sm-2 col-md-2 col-lg-2'><a href=""><i class="fab fa-instagram fa-2x"></i></a> </span>
+
+               </ul>
+                <!-- <form>
+                    <fieldset class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
+                    </fieldset>
+                    <fieldset class="form-group text-xs-right">
+                        <button type="button" class="btn btn-primary btn-lg">Send</button>
+                    </fieldset>
+                </form> -->
+            </div>
+        </div>
+    </div>
+</footer>
+  <!-- //////////////////////////////////////////
+  //////////////////  FOOTER //////////////////
+  ////////////////////////////////////////////// --->
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="main.js">
+
+
+    </script>
+  </body>
+</html>
